@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+.rectangle-2{
+position: absolute;
+height: 400px;
+width: 250px;
+left: 373px;
+right: 365px;
+bottom: 90px;
+top: 58px;
+background: #FFFFFF;
+border-radius: 8px;
+box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle-4{
+  position: absolute;
+  width: 250px;
+  height: 144px;
+  left: 373px;
+  top: 57px;
+  bottom: 347px;
+  right: 365px;
+  background: #ACC0E9;
+  mix-blend-mode: darken;
+  opacity: 0.9;
+
+}
+
+.ellipse-4{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 427px;
+  top: 128px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.ellipse-3{
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 432px;
+top: 133px;
+background-image: url('image.png');
+background-size: contain;
+}
+
+.name{
+
+position: absolute;
+width: 102px;
+height: 24px;
+left: 444px;
+top: 272px;
+font-family: 'Allerta', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+}
+
+.role{
+  position: absolute;
+  width: 122px;
+  height: 17px;
+  left: 435px;
+  top: 301px;
+  
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  
+  color: #484848;
+}
+.text{
+  position:relative;
+height: 48px;
+width: 200px;
+left: 396px;
+top: 334px;
+font-family: Allerta;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(144, 144, 144, 1)
+
+
+
+}
+.facebook{
+  position: absolute;
+  height: 21px;
+  width: 20px;
+  left: 423px;
+  top: 418px;
+  
+  background-image: url('icons/facebook.png'); 
+  background-size: contain;
+}
+
+.instagram{
+  position: absolute;
+  height: 20px;
+  width: 19.86px;
+  left: 455px;
+  top: 418px;
+  background-image: url('icons/instagram.jpg'); 
+  background-size: contain;
+}
+
+.twitter{
+  position: absolute;
+  height: 20px;
+  width: 20.772825241088867px;
+  left: 488.5386657714844px;
+  top: 418px;
+  border-radius: 0px;
+  background-color: rgba(0, 172, 238, 1);
+  background-image: url('icons/twitter.png'); 
+  background-size: contain;
+
+}
+.github{
+  position: absolute;
+  height: 20px;
+  width: 19.86px;
+  left: 522.30px;
+  top: 418px;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url('icons/github.png'); 
+  background-size: contain;
+
+}
+.linkedin{
+  position: absolute;
+  height: 18px;
+  width: 17.873361587524414px;
+  left: 555.0671997070312px;
+  top: 418px;
+  border-radius: 0px;
+  
+  background-image: url('icons/linkedin.png'); 
+  background-size: contain;
+}
+.dots{
+  position: absolute;
+  height: 24px;
+width: 24px;
+left: 591px;
+top: 76px;
+border-radius: 0px;
+background-image: url('dots.png'); 
+background-size: cover;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+}
